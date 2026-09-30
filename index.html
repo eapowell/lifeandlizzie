@@ -70,6 +70,24 @@
       </div>
     </section>
 
+    <section id="newsletter" class="newsletter">
+      <div class="container">
+        <div class="newsletter-inner">
+          <h2>Don't Miss <span class="highlight">a Thing</span></h2>
+          <p>New posts, real talk, and the stuff I only share with my people — straight to your inbox.</p>
+          <form name="newsletter" method="POST" action="/success.html" data-netlify="true" netlify-honeypot="bot-field" class="newsletter-form">
+            <p hidden><label>Don't fill this out: <input name="bot-field"></label></p>
+            <div class="form-group">
+              <input type="text" name="first-name" placeholder="First name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <button type="submit" class="btn btn-submit">I'm In</button>
+            </div>
+          </form>
+          <p class="newsletter-note">No spam. Unsubscribe whenever. Pinky promise.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="connect" class="connect">
       <div class="container">
         <h2>You Look <span class="highlight">So Good</span></h2>
